@@ -30,6 +30,6 @@ doSomething is passed in as the callback parameter. Since functions are a data t
 19. 1
     4
     3  
-    2
+    2 (each on separate lines)
 
     
