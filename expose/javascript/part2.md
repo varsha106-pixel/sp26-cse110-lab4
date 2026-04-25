@@ -27,5 +27,9 @@ F. true. Boolean(2) converts to true which is the same type and value as true so
 15. == automatically converts one or both values to a common type before comparing, following JavaScript's built-in conversion rules. === does not convert anything. It compares both the value and the type directly, so if the types are different it immediately returns false.
 17. modifyArray([1,2,3], doSomething) returns [2, 4, 6].
 doSomething is passed in as the callback parameter. Since functions are a data type in JavaScript, they can be passed around just like any other value. Each iteration calls callback(array[i]) which is equivalent to doSomething(array[i]), multiplying each element by 2 and pushing the result into newArr. After all 3 iterations, the function returns [2, 4, 6] which is all the elements of the oirginal array multiplied with 2.
+19. 1
+    4
+    3  
+    2
 
     
