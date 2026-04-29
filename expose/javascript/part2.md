@@ -30,6 +30,6 @@ F. true. Boolean(2) converts to true which is the same type and value as true so
 doSomething is passed in as the callback parameter. Since functions are a data type in JavaScript, they can be passed around just like any other value. Each iteration calls callback(array[i]) which is equivalent to doSomething(array[i]), multiplying each element by 2 and pushing the result into newArr. After all 3 iterations, the function returns [2, 4, 6] which is all the elements of the oirginal array multiplied with 2.
 
 
-            19.) 1 4 3   2 (each on separate lines)
+19.) 1 4 3   2 (each on separate lines)
 
     
